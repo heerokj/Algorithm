@@ -1,14 +1,6 @@
 function solution(a, b) {
-    let sum = 0;
-    if(a <= b){
-        for(let i = a; i <= b; i++){
-            sum += i
-        }
-    }else if(a > b){
-         for(let i = b; i <= a; i++){
-            sum += i
-        }
-    }
-    return sum;
+var result = 0
+    //함수를 완성하세요
+    return (a+b) * (Math.abs(a-b)+1) / 2;
 }
 
